@@ -7,10 +7,10 @@ A combined theoretical and computational study of the Qi–Wu–Zhang (QWZ) Cher
 - **Model**: 2D Bloch Hamiltonian  
   $H(\mathbf{k};m) = \sin k_x * \sigma_x + \sin k_y * \sigma_y + \bigl(m + \cos k_x + \cos k_y\bigr) * \sigma_z, \\ \mathbf{k}\in[-\pi,\pi]^2, \\ m\in\mathbb{R}.$
 - **Theoretical Goals**  
-  1. Prove a lower bound on the spectral gap \(\Delta(m)\) using Kato’s perturbation theory and Weyl’s theorem.  
-  2. Rigorously show that the Chern number of the lower band jumps by ±1 at critical values \(m=-2,0,2\).  
+  1. Prove a lower bound on the spectral gap $\(\Delta(m)\)$ using Kato’s perturbation theory and Weyl’s theorem.  
+  2. Rigorously show that the Chern number of the lower band jumps by ±1 at critical values $\(m=-2,0,2\)$.  
 - **Computational Goals**  
-  - Numerically compute \(\Delta_0(m)\) on a fine \((k_x,k_y)\) grid and compare against analytic bounds.  
+  - Numerically compute $\(\Delta_0(m)\)$ on a fine $\((k_x,k_y)\)$ grid and compare against analytic bounds.  
   - Implement the Fukui–Hatsugai–Suzuki algorithm to compute Chern numbers and visualize their stepwise changes.  
   - Prototype extensions: disorder‐stability simulations, non‑Hermitian generalizations, and edge‐state calculations.
 - **Long‑Term Applications**  
