@@ -5,7 +5,7 @@ A combined theoretical and computational study of the Qi–Wu–Zhang (QWZ) Cher
 ## Project Overview
 
 - **Model**: 2D Bloch Hamiltonian  
-  $H(\mathbf{k};m) = \sin k_x * \sigma_x + \sin k_y * \sigma_y + \bigl(m + \cos k_x + \cos k_y\bigr) * \sigma_z$
+  $H(\mathbf{k};m) = \sin k_x * \sigma_x + \sin k_y * \sigma_y + \bigl(m + \cos k_x + \cos k_y\bigr) * \sigma_z, $
   $\\ \\ \mathbf{k}\in[-\pi,\pi]^2, m\in\mathbb{R}.$
 - **Theoretical Goals**  
   1. Prove a lower bound on the spectral gap \(\Delta(m)\) using Kato’s perturbation theory and Weyl’s theorem.  
