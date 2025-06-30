@@ -10,14 +10,10 @@ This document summarizes the key components of the Chern number jump proof, the 
 
    * For the lower band of $H(\mathbf{k};m)$, compute the Berry curvature:
 
-     $
-       \Omega(\mathbf{k}) = i\Bigl(\langle\partial_{k_x}u_-|\partial_{k_y}u_-\rangle - \langle\partial_{k_y}u_-|\partial_{k_x}u_-\rangle\Bigr)
-     $
+     $\Omega(\mathbf{k}) = i\Bigl(\langle\partial_{k_x}u_-|\partial_{k_y}u_-\rangle - \langle\partial_{k_y}u_-|\partial_{k_x}u_-\rangle\Bigr)$
    * Integrate over the Brillouin zone (BZ):
 
-     $
-       C(m) = \frac{1}{2\pi} \int_{BZ} \Omega(\mathbf{k})\,d^2k \in \mathbb{Z}.
-     $
+     $C(m) = \frac{1}{2\pi} \int_{BZ} \Omega(\mathbf{k})\,d^2k \in \mathbb{Z}.$
 
 2. **Gap‑Closing Analysis**
 
