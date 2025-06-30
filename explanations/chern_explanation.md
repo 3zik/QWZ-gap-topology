@@ -10,14 +10,14 @@ This document summarizes the key components of the Chern number jump proof, the 
 
    * For the lower band of $H(\mathbf{k};m)$, compute the Berry curvature:
 
-     $$
+     $
        \Omega(\mathbf{k}) = i\Bigl(\langle\partial_{k_x}u_-|\partial_{k_y}u_-\rangle - \langle\partial_{k_y}u_-|\partial_{k_x}u_-\rangle\Bigr)
-     $$
+     $
    * Integrate over the Brillouin zone (BZ):
 
-     $$
+     $
        C(m) = \frac{1}{2\pi} \int_{BZ} \Omega(\mathbf{k})\,d^2k \in \mathbb{Z}.
-     $$
+     $
 
 2. **Gap‑Closing Analysis**
 
@@ -42,14 +42,14 @@ This document summarizes the key components of the Chern number jump proof, the 
 
    * Four Dirac points yield integer jumps of $\pm1$ at $m=-2,0,2$, giving
 
-   $$
+   $
      C(m)=\begin{cases}
        0, & m<-2,\\
        +1, & -2<m<0,\\
        -1, & 0<m<2,\\
        0, & m>2.
      \end{cases}
-   $$
+   $
 
 ---
 
@@ -105,5 +105,3 @@ This document summarizes the key components of the Chern number jump proof, the 
 3. **Design Guidelines**: The location of critical $m$ values pinpoints where to look for gap closings in band-structure engineering.
 
 ---
-
-> *This markdown file is intended for inclusion in the repository as `chern_explanation.md` to accompany your proof, code, and figures.*
