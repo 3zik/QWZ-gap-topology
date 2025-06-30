@@ -72,7 +72,7 @@ This document summarizes the key components of the Chern number jump proof, the 
 
 ## 3. Resulting Graph of $C(m)$
 
-![Step Function of C(m)](chern_vs_m.png)
+![Step Function of C(m)](/plots/chern_vs_m.png)
 
 * **Observed Behavior**: Plateaus at 0, +1, –1, 0 with jumps at $m=-2,0,2$.
 * **Grid**: 61 evenly spaced $m$ values in $[-3,3]$, $N=20$ grid in BZ.
