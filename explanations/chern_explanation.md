@@ -38,12 +38,11 @@ This document summarizes the key components of the Chern number jump proof, the 
 
    * Four Dirac points yield integer jumps of $\pm1$ at $m=-2,0,2$, giving
 
-   - `C(m) = 0` for `m < -2`  
-   - `C(m) = +1` for `-2 < m < 0`  
-   - `C(m) = -1` for `0 < m < 2`  
-   - `C(m) = 0` for `m > 2`
+       - `C(m) = 0` for `m < -2`  
+       - `C(m) = +1` for `-2 < m < 0`  
+       - `C(m) = -1` for `0 < m < 2`  
+       - `C(m) = 0` for `m > 2`
 
-   
 ---
 
 ## 2. Numerical Implementation: `chern_calc.py`
