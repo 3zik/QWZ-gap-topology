@@ -45,10 +45,7 @@ This script numerically evaluates the bulk band gap of the Qi–Wu–Zhang Chern
 
 ## 3. Usage Notes
 
-* Ensure the `results/` and `plots/` directories exist (or create them via `os.makedirs` in the script).
 * Adjust the grid resolution (`Nk`) to trade off accuracy vs. computation time.
 * Overlay critical lines at m=-2, 0, 2 in the plot for clarity.
 
 ---
-
-> This file is a quick reference to remind you of the goals, methods, and physical insights provided by `compute_gap.py`.
