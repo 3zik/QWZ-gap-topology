@@ -38,15 +38,8 @@ This document summarizes the key components of the Chern number jump proof, the 
 
    * Four Dirac points yield integer jumps of $\pm1$ at $m=-2,0,2$, giving
 
-   $
-     C(m)=\begin{cases}
-       0, & m<-2,\\
-       +1, & -2<m<0,\\
-       -1, & 0<m<2,\\
-       0, & m>2.
-     \end{cases}
-   $
-
+   $ C(m)=\begin{cases} 0, & m<-2,\\ +1, & -2<m<0,\\ -1, & 0<m<2,\\ 0, & m>2.\end{cases} $
+   
 ---
 
 ## 2. Numerical Implementation: `chern_calc.py`
@@ -101,3 +94,5 @@ This document summarizes the key components of the Chern number jump proof, the 
 3. **Design Guidelines**: The location of critical $m$ values pinpoints where to look for gap closings in band-structure engineering.
 
 ---
+
+hahah markdwon hahaha its not confusing
