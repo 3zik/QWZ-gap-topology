@@ -41,3 +41,5 @@ This document provides a concise overview of the Monte Carlo disorder‑stabilit
 * **Design guidance**: Quantitative threshold for tolerable disorder in experimental realizations.
 
 ---
+
+> **Note:** The plateau of ⟨Δₚₑᵣₜ⟩ for W > ½ Δ₀ reflects that the analytic bound Δ₀ − 2W becomes zero (or negative) in that regime; the system’s minimal gap cannot go below zero, so the mean remains at its “floor.”
