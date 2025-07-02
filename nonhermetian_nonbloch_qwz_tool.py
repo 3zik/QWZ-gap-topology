@@ -33,10 +33,10 @@ def H_nonbloch(theta, ky, m, gamma, r):
     # dz = m - t * (cos(kx) + cos(ky))
 
     # Adapt dx and dz for non-Bloch kx -> kx + i log(r)
-    # Your current H_nonbloch(theta, ky, m, gamma, r) uses:
+    # The current H_nonbloch(theta, ky, m, gamma, r) uses:
     # dx = t * (rx * cos(kx) + 1) where rx = r
     # This implies that the 't' in the H definition multiplies 'r * cos(kx)' and 'r * sin(ky)'.
-    # This is a specific non-Bloch form. Let's stick to your definition:
+    # This is a specific non-Bloch form. Let's stick to this definition:
     dx = t * (r * np.cos(kx) + 1)
     dy = t * (np.sin(ky)) # Assuming ky is still Bloch (not deformed by r)
     dz = m - t * (np.cos(kx) + np.cos(ky)) # This also needs to be adjusted if kx is non-Bloch.
@@ -46,7 +46,7 @@ def H_nonbloch(theta, ky, m, gamma, r):
     # cos(kx) -> (r*exp(i kx) + (1/r)*exp(-i kx))/2
     # sin(kx) -> (r*exp(i kx) - (1/r)*exp(-i kx))/(2i)
     #
-    # Given your current dx and dz, it seems like your `H_nonbloch` has already
+    # Given the current dx and dz, it seems like your `H_nonbloch` has already
     # incorporated some form of non-Bloch structure where `r` directly multiplies
     # `cos(kx)` and `sin(ky)`. Let's clarify if `r` also applies to `cos(ky)` etc.
     # Based on your H_nonbloch:
